@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <form id="search-form">
+                <input placeholder="Search anything..." autocomplete="off" type="search" name="search" id="search" autofocus/>
+                <button type="submit" class="btn" aria-label="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#5C5C5C" viewBox="0 0 256 256"><path d="M232.49,215.51,185,168a92.12,92.12,0,1,0-17,17l47.53,47.54a12,12,0,0,0,17-17ZM44,112a68,68,0,1,1,68,68A68.07,68.07,0,0,1,44,112Z"></path></svg>
+                </button>
+            </form>
+            <div class="information">
+
+            </div>
+            <section id="search-results" aria-label="search results"></section>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+        <script src="search.js" type="module" async defer></script>
+    </body>
+</html>
